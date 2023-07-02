@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D620B409281448D4007ED46B /* LaserLineClinicsKomotiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620B408281448D4007ED46B /* LaserLineClinicsKomotiniApp.swift */; };
+		D620B40B281448D4007ED46B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620B40A281448D4007ED46B /* ContentView.swift */; };
+		D620B40D281448D6007ED46B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D620B40C281448D6007ED46B /* Assets.xcassets */; };
+		D620B410281448D6007ED46B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D620B40F281448D6007ED46B /* Preview Assets.xcassets */; };
+		D620B41A281448D6007ED46B /* LaserLineClinicsKomotiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620B419281448D6007ED46B /* LaserLineClinicsKomotiniTests.swift */; };
+		D620B424281448D6007ED46B /* LaserLineClinicsKomotiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620B423281448D6007ED46B /* LaserLineClinicsKomotiniUITests.swift */; };
+		D620B426281448D6007ED46B /* LaserLineClinicsKomotiniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620B425281448D6007ED46B /* LaserLineClinicsKomotiniUITestsLaunchTests.swift */; };
+		D679E7FD2A5211B80068874C /* Customers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679E7FC2A5211B80068874C /* Customers.swift */; };
+		D69168D12815EDB90006BA2D /* SocialMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69168D02815EDB90006BA2D /* SocialMediaView.swift */; };
+		D69168D42815EDEF0006BA2D /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69168D32815EDEF0006BA2D /* GalleryView.swift */; };
+		D69168D72815EE1F0006BA2D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69168D62815EE1F0006BA2D /* HomeView.swift */; };
+		D69168DA281603FE0006BA2D /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69168D9281603FE0006BA2D /* SwiftUIWebView.swift */; };
+		D69168DC281609530006BA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69168DB281609530006BA2D /* LaunchScreen.storyboard */; };
+		D69168DF28160C620006BA2D /* FindUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69168DE28160C620006BA2D /* FindUsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D620B416281448D6007ED46B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D620B3FD281448D4007ED46B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D620B404281448D4007ED46B;
+			remoteInfo = LaserLineClinicsKomotini;
+		};
+		D620B420281448D6007ED46B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D620B3FD281448D4007ED46B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D620B404281448D4007ED46B;
+			remoteInfo = LaserLineClinicsKomotini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D620B405281448D4007ED46B /* LaserLineClinicsKomotini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaserLineClinicsKomotini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D620B408281448D4007ED46B /* LaserLineClinicsKomotiniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserLineClinicsKomotiniApp.swift; sourceTree = "<group>"; };
+		D620B40A281448D4007ED46B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D620B40C281448D6007ED46B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D620B40F281448D6007ED46B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D620B415281448D6007ED46B /* LaserLineClinicsKomotiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaserLineClinicsKomotiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D620B419281448D6007ED46B /* LaserLineClinicsKomotiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserLineClinicsKomotiniTests.swift; sourceTree = "<group>"; };
+		D620B41F281448D6007ED46B /* LaserLineClinicsKomotiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaserLineClinicsKomotiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D620B423281448D6007ED46B /* LaserLineClinicsKomotiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserLineClinicsKomotiniUITests.swift; sourceTree = "<group>"; };
+		D620B425281448D6007ED46B /* LaserLineClinicsKomotiniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserLineClinicsKomotiniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D679E7FC2A5211B80068874C /* Customers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customers.swift; sourceTree = "<group>"; };
+		D69168D02815EDB90006BA2D /* SocialMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaView.swift; sourceTree = "<group>"; };
+		D69168D32815EDEF0006BA2D /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		D69168D62815EE1F0006BA2D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D69168D9281603FE0006BA2D /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
+		D69168DB281609530006BA2D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D69168DE28160C620006BA2D /* FindUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindUsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D620B402281448D4007ED46B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D620B412281448D6007ED46B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D620B41C281448D6007ED46B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D620B3FC281448D4007ED46B = {
+			isa = PBXGroup;
+			children = (
+				D620B407281448D4007ED46B /* LaserLineClinicsKomotini */,
+				D620B418281448D6007ED46B /* LaserLineClinicsKomotiniTests */,
+				D620B422281448D6007ED46B /* LaserLineClinicsKomotiniUITests */,
+				D620B406281448D4007ED46B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D620B406281448D4007ED46B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D620B405281448D4007ED46B /* LaserLineClinicsKomotini.app */,
+				D620B415281448D6007ED46B /* LaserLineClinicsKomotiniTests.xctest */,
+				D620B41F281448D6007ED46B /* LaserLineClinicsKomotiniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D620B407281448D4007ED46B /* LaserLineClinicsKomotini */ = {
+			isa = PBXGroup;
+			children = (
+				D679E7FB2A52119B0068874C /* Customers */,
+				D69168DD28160C4A0006BA2D /* FindUsView */,
+				D69168D8281603E10006BA2D /* SwiftUIWebView */,
+				D69168D52815EE040006BA2D /* HomeView */,
+				D69168D22815EDD40006BA2D /* GalleryView */,
+				D69168CF2815EDA70006BA2D /* SocialMediaView */,
+				D620B408281448D4007ED46B /* LaserLineClinicsKomotiniApp.swift */,
+				D620B40A281448D4007ED46B /* ContentView.swift */,
+				D620B40C281448D6007ED46B /* Assets.xcassets */,
+				D620B40E281448D6007ED46B /* Preview Content */,
+				D69168DB281609530006BA2D /* LaunchScreen.storyboard */,
+			);
+			path = LaserLineClinicsKomotini;
+			sourceTree = "<group>";
+		};
+		D620B40E281448D6007ED46B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D620B40F281448D6007ED46B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D620B418281448D6007ED46B /* LaserLineClinicsKomotiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				D620B419281448D6007ED46B /* LaserLineClinicsKomotiniTests.swift */,
+			);
+			path = LaserLineClinicsKomotiniTests;
+			sourceTree = "<group>";
+		};
+		D620B422281448D6007ED46B /* LaserLineClinicsKomotiniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D620B423281448D6007ED46B /* LaserLineClinicsKomotiniUITests.swift */,
+				D620B425281448D6007ED46B /* LaserLineClinicsKomotiniUITestsLaunchTests.swift */,
+			);
+			path = LaserLineClinicsKomotiniUITests;
+			sourceTree = "<group>";
+		};
+		D679E7FB2A52119B0068874C /* Customers */ = {
+			isa = PBXGroup;
+			children = (
+				D679E7FC2A5211B80068874C /* Customers.swift */,
+			);
+			path = Customers;
+			sourceTree = "<group>";
+		};
+		D69168CF2815EDA70006BA2D /* SocialMediaView */ = {
+			isa = PBXGroup;
+			children = (
+				D69168D02815EDB90006BA2D /* SocialMediaView.swift */,
+			);
+			path = SocialMediaView;
+			sourceTree = "<group>";
+		};
+		D69168D22815EDD40006BA2D /* GalleryView */ = {
+			isa = PBXGroup;
+			children = (
+				D69168D32815EDEF0006BA2D /* GalleryView.swift */,
+			);
+			path = GalleryView;
+			sourceTree = "<group>";
+		};
+		D69168D52815EE040006BA2D /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				D69168D62815EE1F0006BA2D /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		D69168D8281603E10006BA2D /* SwiftUIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				D69168D9281603FE0006BA2D /* SwiftUIWebView.swift */,
+			);
+			path = SwiftUIWebView;
+			sourceTree = "<group>";
+		};
+		D69168DD28160C4A0006BA2D /* FindUsView */ = {
+			isa = PBXGroup;
+			children = (
+				D69168DE28160C620006BA2D /* FindUsView.swift */,
+			);
+			path = FindUsView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D620B404281448D4007ED46B /* LaserLineClinicsKomotini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D620B429281448D6007ED46B /* Build configuration list for PBXNativeTarget "LaserLineClinicsKomotini" */;
+			buildPhases = (
+				D620B401281448D4007ED46B /* Sources */,
+				D620B402281448D4007ED46B /* Frameworks */,
+				D620B403281448D4007ED46B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaserLineClinicsKomotini;
+			productName = LaserLineClinicsKomotini;
+			productReference = D620B405281448D4007ED46B /* LaserLineClinicsKomotini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D620B414281448D6007ED46B /* LaserLineClinicsKomotiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D620B42C281448D6007ED46B /* Build configuration list for PBXNativeTarget "LaserLineClinicsKomotiniTests" */;
+			buildPhases = (
+				D620B411281448D6007ED46B /* Sources */,
+				D620B412281448D6007ED46B /* Frameworks */,
+				D620B413281448D6007ED46B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D620B417281448D6007ED46B /* PBXTargetDependency */,
+			);
+			name = LaserLineClinicsKomotiniTests;
+			productName = LaserLineClinicsKomotiniTests;
+			productReference = D620B415281448D6007ED46B /* LaserLineClinicsKomotiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D620B41E281448D6007ED46B /* LaserLineClinicsKomotiniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D620B42F281448D6007ED46B /* Build configuration list for PBXNativeTarget "LaserLineClinicsKomotiniUITests" */;
+			buildPhases = (
+				D620B41B281448D6007ED46B /* Sources */,
+				D620B41C281448D6007ED46B /* Frameworks */,
+				D620B41D281448D6007ED46B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D620B421281448D6007ED46B /* PBXTargetDependency */,
+			);
+			name = LaserLineClinicsKomotiniUITests;
+			productName = LaserLineClinicsKomotiniUITests;
+			productReference = D620B41F281448D6007ED46B /* LaserLineClinicsKomotiniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D620B3FD281448D4007ED46B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D620B404281448D4007ED46B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D620B414281448D6007ED46B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D620B404281448D4007ED46B;
+					};
+					D620B41E281448D6007ED46B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D620B404281448D4007ED46B;
+					};
+				};
+			};
+			buildConfigurationList = D620B400281448D4007ED46B /* Build configuration list for PBXProject "LaserLineClinicsKomotini" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D620B3FC281448D4007ED46B;
+			productRefGroup = D620B406281448D4007ED46B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D620B404281448D4007ED46B /* LaserLineClinicsKomotini */,
+				D620B414281448D6007ED46B /* LaserLineClinicsKomotiniTests */,
+				D620B41E281448D6007ED46B /* LaserLineClinicsKomotiniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D620B403281448D4007ED46B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69168DC281609530006BA2D /* LaunchScreen.storyboard in Resources */,
+				D620B410281448D6007ED46B /* Preview Assets.xcassets in Resources */,
+				D620B40D281448D6007ED46B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D620B413281448D6007ED46B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D620B41D281448D6007ED46B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D620B401281448D4007ED46B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620B40B281448D4007ED46B /* ContentView.swift in Sources */,
+				D69168DF28160C620006BA2D /* FindUsView.swift in Sources */,
+				D69168DA281603FE0006BA2D /* SwiftUIWebView.swift in Sources */,
+				D69168D12815EDB90006BA2D /* SocialMediaView.swift in Sources */,
+				D69168D72815EE1F0006BA2D /* HomeView.swift in Sources */,
+				D620B409281448D4007ED46B /* LaserLineClinicsKomotiniApp.swift in Sources */,
+				D69168D42815EDEF0006BA2D /* GalleryView.swift in Sources */,
+				D679E7FD2A5211B80068874C /* Customers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D620B411281448D6007ED46B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620B41A281448D6007ED46B /* LaserLineClinicsKomotiniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D620B41B281448D6007ED46B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620B426281448D6007ED46B /* LaserLineClinicsKomotiniUITestsLaunchTests.swift in Sources */,
+				D620B424281448D6007ED46B /* LaserLineClinicsKomotiniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D620B417281448D6007ED46B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D620B404281448D4007ED46B /* LaserLineClinicsKomotini */;
+			targetProxy = D620B416281448D6007ED46B /* PBXContainerItemProxy */;
+		};
+		D620B421281448D6007ED46B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D620B404281448D4007ED46B /* LaserLineClinicsKomotini */;
+			targetProxy = D620B420281448D6007ED46B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D620B427281448D6007ED46B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D620B428281448D6007ED46B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D620B42A281448D6007ED46B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LaserLineClinicsKomotini/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaserLineClinicsKomotini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D620B42B281448D6007ED46B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LaserLineClinicsKomotini/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaserLineClinicsKomotini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D620B42D281448D6007ED46B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaserLineClinicsKomotiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaserLineClinicsKomotini.app/LaserLineClinicsKomotini";
+			};
+			name = Debug;
+		};
+		D620B42E281448D6007ED46B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaserLineClinicsKomotiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaserLineClinicsKomotini.app/LaserLineClinicsKomotini";
+			};
+			name = Release;
+		};
+		D620B430281448D6007ED46B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaserLineClinicsKomotiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaserLineClinicsKomotini;
+			};
+			name = Debug;
+		};
+		D620B431281448D6007ED46B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaserLineClinicsKomotiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaserLineClinicsKomotini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D620B400281448D4007ED46B /* Build configuration list for PBXProject "LaserLineClinicsKomotini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D620B427281448D6007ED46B /* Debug */,
+				D620B428281448D6007ED46B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D620B429281448D6007ED46B /* Build configuration list for PBXNativeTarget "LaserLineClinicsKomotini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D620B42A281448D6007ED46B /* Debug */,
+				D620B42B281448D6007ED46B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D620B42C281448D6007ED46B /* Build configuration list for PBXNativeTarget "LaserLineClinicsKomotiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D620B42D281448D6007ED46B /* Debug */,
+				D620B42E281448D6007ED46B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D620B42F281448D6007ED46B /* Build configuration list for PBXNativeTarget "LaserLineClinicsKomotiniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D620B430281448D6007ED46B /* Debug */,
+				D620B431281448D6007ED46B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D620B3FD281448D4007ED46B /* Project object */;
+}
